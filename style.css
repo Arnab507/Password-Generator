@@ -1,0 +1,126 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    background: rgb(133, 99, 245);
+    padding: 10px; 
+}
+
+.container {
+    font-size: 3.5vw; 
+    font-weight: normal; 
+    background: rgb(3, 122, 177);
+    padding: 3vw;
+    border: 3px solid rgb(231, 207, 207);
+    border-radius: 10px;
+    box-shadow: 0 10px 10px white;
+    width: 100%; 
+    max-width: 800px; 
+    text-align: center;
+}
+
+.container:hover {
+    background-color: rgb(3, 141, 211);
+}
+
+#pass {
+    font-size: 2.5vw;
+    padding: 3vw; 
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+label {
+    font-size: 2.5vw; 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button {
+    font-size: 2vw;
+    background-color: rgb(199, 226, 245);
+    padding: 1vw;
+    border-radius: 20px;
+    box-shadow: 0 5px 5px rgb(22, 22, 22);
+    text-align: center;
+}
+
+button:hover {
+    background-color: rgb(208, 212, 139);
+}
+
+
+@media (max-width: 1200px) {
+    .container {
+        font-size: 3vw;
+        padding: 2vw;
+    }
+    #pass {
+        font-size: 3vw;
+        padding: 4vw;
+    }
+    label {
+        font-size: 3.5vw;
+    }
+    button {
+        font-size: 3.5vw;
+        padding: 1.5vw;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        flex-direction: column; 
+    }
+
+    .container {
+        font-size: 3vw;
+        padding: 2vw;
+    }
+    #pass {
+        font-size: 4.5vw;
+        padding: 5vw;
+    }
+
+    label {
+        font-size: 5vw;
+    }
+
+    button {
+        font-size: 5vw;
+        padding: 2vw;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        flex-direction: column;
+    }
+    .container {
+        font-size: 3vw;
+        padding: 2vw;
+    }
+    #pass {
+        font-size: 5vw;
+        padding: 6vw;
+    }
+
+    label {
+        font-size: 6vw;
+    }
+
+    button {
+        font-size: 6vw;
+        padding: 2.5vw;
+    }
+}
+

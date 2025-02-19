@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-cont">
+
+
+        <h1 id="pass">RANDOM PASSWORD GENERATOR</h1><br><br>
+        
+        <div class="container" >
+            <label id="length" >
+                Password length <input type="number" min="4" value="4" max="8" required id="len">
+            </label><br>
+            <label id="Uppercase">
+                Include Uppercase<input type="checkbox" id="upp" class="checkbox"  >
+            </label><br>
+            <label id="Lowercase">
+                Include Lowercase<input type="checkbox" id="lower" class="checkbox" >
+            </label><br>
+            <label id="number">
+                Include  Number<input type="checkbox" id="num" class="checkbox" >
+            </label><br>
+            <label id="Special">
+                Include Special Character <input type="checkbox" id="spec" class="checkbox" >
+            </label><br>
+            <button type="submit" id="button">Generate Password</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
